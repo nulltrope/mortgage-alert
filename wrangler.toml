@@ -2,6 +2,9 @@ name = "mortgage-alert"
 main = "src/index.ts"
 compatibility_date = "2023-12-18"
 
+# Uncomment to disable serving your worker on the workers.dev domain
+# workers_dev = false
+
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
 # Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
